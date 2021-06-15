@@ -1,0 +1,8 @@
+prefix=/home/haobing/catkin_ws/devel
+
+Name: hand_gesture_skill
+Description: Description of hand_gesture_skill
+Version: 0.0.0
+Cflags: -I/home/haobing/catkin_ws/devel/include -I/home/haobing/catkin_ws/src/hand_gesture_skill-stable/include
+Libs: -L${prefix}/lib -lhand_gesture_skill
+Requires: roscpp rospy std_msgs actionlib_msgs skill interaction_msgs common_msgs hand_gesture_msgs

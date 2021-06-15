@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+	<arg name="robot" default="alz"/>
+		<group ns="$(arg robot)">
+			<node 
+				pkg="hand_gesture_interface" 
+				name="hand_gesture_interface_node" 
+				type="hand_gesture_interface_node" 
+				respawn="true" 
+				output="screen" 
+				launch-prefix="xterm -e"/>
+			<node 
+				pkg="piedrapapeltijera_skill" 
+				name="key_points" 
+				type="key_points.py"
+				respawn="true" 
+				output="screen"/>
+			<!--node 
+				pkg="hand_gesture_interface" 
+				name="mediapipeON_node" 
+				type="mediapipeON_node" 
+				respawn="true"/-->
+		</group>
+</launch>

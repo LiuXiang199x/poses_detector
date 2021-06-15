@@ -1,0 +1,2 @@
+android_skill:common_msgs:etts_msgs:exercise_skill:hand_gesture_interface:hand_gesture_msgs:hand_gesture_skill-stable:interaction_msgs:interaction_utils:openpose_ros/ros_openpose:piedrapapeltijera_skill:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:skill:tablet_data_connections:tutorial_skill
+-DCATKIN_DEVEL_PREFIX=/home/haobing/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/haobing/catkin_ws/install -G Unix Makefiles

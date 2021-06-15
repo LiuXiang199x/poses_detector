@@ -1,0 +1,7 @@
+set(android_skill_SETUP_PY_SETUP_MODULE "distutils.core")
+set(android_skill_SETUP_PY_VERSION "0.0.0")
+set(android_skill_SETUP_PY_SCRIPTS "")
+set(android_skill_SETUP_PY_PACKAGES "android_skill")
+set(android_skill_SETUP_PY_PACKAGE_DIRS "src/android_skill")
+set(android_skill_SETUP_PY_MODULES "")
+set(android_skill_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,21 @@
+<launch>
+	<arg name="robot" default="$(env HOSTNAME)"/>
+		<group ns="$(arg robot)"> -->
+			<node 
+				pkg="hand_gesture_skill" 
+				name="hand_gesture_skill_node" 
+				type="hand_gesture_skill_node" 
+				respawn="true" 
+				output="screen" 
+				launch-prefix="xterm -e"/>
+
+		<!-- Actionlib client (uncomment if necessary)-->
+			<node 
+				pkg="hand_gesture_skill" 
+				name="test_hand_gesture_client" 
+				type="test_hand_gesture_client" 
+				respawn="true" 
+				output="screen"
+				launch-prefix="xterm -e"/>
+		</group>
+</launch>

@@ -1,0 +1,8 @@
+# Define the goal
+string num_minigame
+---
+# Define the result
+int32 end_minigame
+---
+# Define a feedback message
+int32 questions_completed

@@ -1,0 +1,2 @@
+set(ros_openpose_MESSAGE_FILES "/home/haobing/catkin_ws/src/ros_openpose/msg/Pixel.msg;/home/haobing/catkin_ws/src/ros_openpose/msg/BodyPart.msg;/home/haobing/catkin_ws/src/ros_openpose/msg/Person.msg;/home/haobing/catkin_ws/src/ros_openpose/msg/Frame.msg;/home/haobing/catkin_ws/src/ros_openpose/msg/Gesture.msg;/home/haobing/catkin_ws/src/ros_openpose/msg/Distance2user.msg;/home/haobing/catkin_ws/src/ros_openpose/msg/CompThresh.msg")
+set(ros_openpose_SERVICE_FILES "/home/haobing/catkin_ws/src/ros_openpose/srv/ExerciseInfo.srv")

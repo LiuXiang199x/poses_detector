@@ -1,0 +1,39 @@
+1. Abrir terminal en la tablet (segundo plano):
+   (IMPORTANTE: Debe estar instalada la aplicación "Automate", debe tener el archivo "Open_termux" y 	configurarlo con la red wifi de la Mini asociada).
+   - Abrir Automate y seleccionar "Open_termux".
+   - Seleccionar "START".
+
+2. Generar ssh (http://roboticslab.uc3m.es/mediawiki/index.php/Mini_Installation#Mini_Setup)
+
+   Lanzar en el terminal:
+   - git config --global user.name "MINI ROBOT"
+     git config --global user.email "mini.uc3m@gmail.com"
+   - ssh-keygen -t rsa -C "mini.uc3m@gmail.com" -b 4096
+   - cat ~/.ssh/id_rsa.pub
+
+   
+   Abrir el archivo:
+   - gedit ~/.ssh/id_rsa.pub
+   
+   Copiar contenido del archivo y enviarlo al correo de Mini para que sea más fácil.
+   Abrir el correo enviado y copiar la clave.
+
+3. SSH Tablet Configuration (http://roboticslab.uc3m.es/mediawiki/index.php/Tablet_Installation)
+    
+   - install app Termux in tablet.
+   - In tablet: pkg install openssh
+   - In tablet: ssh-keygen
+   - Go to /data/data/com.termux/files/home/.ssh (from termux)
+   - nano authorized_keys
+   - Paste the ssh-key
+   - Create file .profile in tablet (/data/data/com.termux/files/home)
+   - Write in .profile: 
+	termux-wave-lock
+	sshd
+   - Give permissions to Termux.
+     + In  tablet go to ''Settings -> Apps'', select '''Termux''' and give '''storage permissions'''.
+     or
+     + Open '''Termux''' and write:
+	termux-setup-storage
+   - Restart tablet
+   - In tablet: whoami -> Get tablet_user (only if it is the first time)

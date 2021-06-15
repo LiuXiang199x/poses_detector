@@ -1,0 +1,7 @@
+set(skill_SETUP_PY_SETUP_MODULE "distutils.core")
+set(skill_SETUP_PY_VERSION "0.0.0")
+set(skill_SETUP_PY_SCRIPTS "")
+set(skill_SETUP_PY_PACKAGES "skill")
+set(skill_SETUP_PY_PACKAGE_DIRS "src/skill")
+set(skill_SETUP_PY_MODULES "")
+set(skill_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,11 @@
+uint8 max_time
+---
+int8 ERROR = -1
+int8 SUCCESS = 0
+int8 FAIL = 1
+int8 skill_result
+---
+string app_status
+uint8 percentage_completed
+bool engagement
+common_msgs/KeyValuePair[] response_params

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robot" default="$(env HOSTNAME)"/>
+	<group ns="$(arg robot)">
+		<node name="tablet_data_connections" pkg="tablet_data_connections" type="connection_server.py" output="screen"/>
+	</group>
+</launch>

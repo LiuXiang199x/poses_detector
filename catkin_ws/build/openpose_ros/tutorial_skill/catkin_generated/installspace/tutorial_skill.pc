@@ -1,0 +1,8 @@
+prefix=/home/haobing/catkin_ws/install
+
+Name: tutorial_skill
+Description: Description of tutorial_skill
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

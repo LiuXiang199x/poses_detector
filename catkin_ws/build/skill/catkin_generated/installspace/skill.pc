@@ -1,0 +1,8 @@
+prefix=/home/haobing/catkin_ws/install
+
+Name: skill
+Description: Description of skill
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy

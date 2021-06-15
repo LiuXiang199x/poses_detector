@@ -1,0 +1,8 @@
+prefix=/home/haobing/catkin_ws/install
+
+Name: interaction_utils
+Description: Description of interaction_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -linteraction_utils
+Requires: interaction_msgs roscpp rospy std_msgs etts_msgs interaction_msgs common_msgs

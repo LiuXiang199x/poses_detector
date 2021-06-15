@@ -1,0 +1,10 @@
+<launch>
+<!-- <arg name="robot" default="$(env HOSTNAME)"/>-->
+
+	<node 
+		pkg="hand_gesture_interface" 
+		name="mediapipe_detectorGestos_launch" 
+		type="mediapipe_detectorGestos_launch.sh" 
+		respawn="true"/>
+
+</launch>

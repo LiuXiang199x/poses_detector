@@ -1,0 +1,8 @@
+prefix=/home/haobing/catkin_ws/devel
+
+Name: piedrapapeltijera_skill
+Description: Description of piedrapapeltijera_skill
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

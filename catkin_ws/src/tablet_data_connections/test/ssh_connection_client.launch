@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="robot" default="$(env HOSTNAME)"/>
+	<group ns="$(arg robot)">
+		<node name="ssh_client" pkg="tablet_data_connections" type="ssh_connection_client_node.py" output="screen"/>
+	</group>
+</launch>
+
+

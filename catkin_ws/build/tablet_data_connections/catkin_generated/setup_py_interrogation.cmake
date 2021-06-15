@@ -1,0 +1,7 @@
+set(tablet_data_connections_SETUP_PY_SETUP_MODULE "distutils.core")
+set(tablet_data_connections_SETUP_PY_VERSION "0.0.0")
+set(tablet_data_connections_SETUP_PY_SCRIPTS "")
+set(tablet_data_connections_SETUP_PY_PACKAGES "tablet_data_connections")
+set(tablet_data_connections_SETUP_PY_PACKAGE_DIRS "src/tablet_data_connections")
+set(tablet_data_connections_SETUP_PY_MODULES "")
+set(tablet_data_connections_SETUP_PY_MODULE_DIRS "")

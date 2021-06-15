@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+<!-- <arg name="robot" default="alz4"/>
+<group ns="$(arg robot)">
+        <node pkg="android_skill" type="node.py"
+            name="android_skill" output="screen" required="true" />
+</group> -->
+	<node pkg="android_skill" type="tutorial_body.py"
+        name="tutorial_body" output="screen" required="true" />
+</launch>

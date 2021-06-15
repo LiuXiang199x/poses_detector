@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+	<arg name="robot" default="alz4"/>
+	<group ns="$(arg robot)">
+		<node pkg="exercise_skill" type="exercise_skill.py"
+			name="exercise_skill" output="screen" respawn="true" />
+	</group>
+</launch>

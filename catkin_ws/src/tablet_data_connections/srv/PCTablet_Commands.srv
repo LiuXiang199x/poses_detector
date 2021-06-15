@@ -1,0 +1,14 @@
+string command
+#string first_arg
+#string second_arg
+# transferTablet2PC -> remote_path, local_path
+# transferPC2Tablet -> local_path, remote_path
+# transferPC2TabletTemp -> local_path, file_name
+# lsTablet -> direc, -
+# mkdirTablet -> direc, -
+# existsTablet -> direc, -
+# cutTablet -> oldpath, newpath
+# removeTablet -> path, -
+---
+int8 result
+string info

@@ -1,0 +1,8 @@
+#Goal definition: input parameters
+Utterance utterance
+---
+#Result of the action, only is sended once
+int32 consequence
+---
+#Feedback about the progress of the action
+bool utteranceReceived

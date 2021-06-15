@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>skill</name>
+    <version>0.0.0</version>
+    <description>
+        skill
+    </description>
+
+    <!-- Author tags are optional, multiple are allowed, one per tag -->
+    <!-- Authors do not have to be maintianers, but could be -->
+    <author email="raul.perula@uc3m.es">Raul Perula-Martinez</author>
+
+
+    <!-- One maintainer tag required, multiple allowed, one person per tag -->
+    <maintainer email="raul.perula@uc3m.es">Raul Perula-Martinez</maintainer>
+
+
+    <!-- One license tag required, multiple allowed, one license per tag -->
+    <license>Copyright (c) 2019, Universidad Carlos III de Madrid. Todos los derechos reservados.</license>
+
+
+    <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+    <url type="website">http://wiki.ros.org/skill</url>
+    <url type="bugtracker">https://github.com/UC3MSocialRobots/maggie_skills/issues</url>
+    <url type="repository">https://github.com/UC3MSocialRobots/maggie_skills.git</url>
+
+
+    <!-- The *_depend tags are used to specify dependencies -->
+    <!-- Dependencies can be catkin packages or system dependencies -->
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <!-- ROS packages dependencies -->
+    <depend>roscpp</depend>
+    <depend>rospy</depend>
+
+    <!-- tests dependencies -->
+    <test_depend>rosunit</test_depend>
+    <test_depend>rostest</test_depend>
+
+
+    <!-- The export tag contains other, unspecified, tags -->
+    <export>
+        <!-- Autogenerate documentation -->
+        <rosdoc config="rosdoc.yaml" />
+    </export>
+</package>

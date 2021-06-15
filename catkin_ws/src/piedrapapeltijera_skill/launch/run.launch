@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+	<arg name="robot" default="$(env HOSTNAME)"/>
+		<group ns="$(arg robot)">
+			<node 
+				pkg="piedrapapeltijera_skill" 
+				name="key_points" 
+				type="key_points.py"
+				respawn="true" 
+				output="screen"/>
+		</group>
+</launch>
+
+

@@ -1,0 +1,15 @@
+string skill_command
+uint16 max_time
+uint16 number_plays
+uint16 proactivity
+string skill_status
+---
+int8 ERROR = -1
+int8 SUCCESS = 0
+int8 FAIL = 1
+int8 skill_result
+---
+string app_status
+uint8 percentage_completed
+bool engagement
+common_msgs/KeyValuePair[] response_params

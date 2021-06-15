@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libhand_gesture_skill.so -o /home/haobing/catkin_ws/devel/lib/libhand_gesture_skill.so CMakeFiles/hand_gesture_skill.dir/src/hand_gesture_skill.cpp.o 
